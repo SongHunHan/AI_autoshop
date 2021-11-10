@@ -1,3 +1,9 @@
 main.ipynb
 yolov5/
-
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+datasets/
+yolov5_past/
+addTestset.ipynb
+duplicateTXT.ipynb
+test.ipynb
