@@ -1,5 +1,5 @@
 
-# AI_yolov5_autoshop
+# AI_autoshop
 
 #### 산업이 발전하면서 계산을 해주는 인력이 없어지고 무인접포가 많이 생겼다. 최근에는 AI발전으로 계산의 과정까지 없애려는 움직임이 보였고 아주 흥미로웠다.
 [![gitAutoShop](https://user-images.githubusercontent.com/65228530/130751880-c6aed3c2-a81b-48b1-a2c2-a267a17fe7c1.png)](https://www.youtube.com/watch?v=yeS8TJwBAFs&t=103s)
@@ -20,15 +20,9 @@ from glob import glob
 <p>
 
 ```python
-result_img = glob('/workspace/Docker/yolov5_marchandise/yolov5/runs/detect/exp3/*.jpg')
+result_img = glob('/workspace/Docker/marchandise/ex/*.jpg')
 len(result_img)
 ```
-
-
-
-
-    345
-
 
 
 
@@ -61,4 +55,4 @@ plt.show()
     
   <img src="https://user-images.githubusercontent.com/65228530/131086324-ddae379a-ae49-40ae-a04a-60a47dcda835.gif" alt="real gif2"/>
 </p> 
-# AI_yolov5_autoshop
+# AI_autoshop
